@@ -1,0 +1,15 @@
+.container{
+    width: 500px;
+    background-color: darkgray;
+    margin: auto;
+    padding: 5px 15px;
+    border: 2px dashed;
+    margin: 5px;
+}
+.box{
+    width: 150px;
+    height: 350px;
+    background-color: red;
+        /* تاثیر بر ابعاد سایر عناصر با فلوت دهی به جعبه */
+    float: left;
+}

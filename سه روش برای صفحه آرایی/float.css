@@ -1,0 +1,24 @@
+/* برای جاگیری جعبه ها استفاده می شود float در این روش ، از */
+
+.container {
+    width: 500px;
+    background-color: darkgray;
+    padding: 15px;
+}
+
+.box1 {
+    width: 100px;
+    /* (تغییر ارتفاع کانتینر با مقداردهی به ارتفاع جعبه(بدون استفاده از فلوت*/
+    height: 200px;  
+    background-color: red; 
+    /* ثابت ماندن ارتفاع کانتینر با فلوت دهی به جعبه           */
+    float: left;
+}
+/* .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    /* :چسباندن جعبه ها از طریق تاپ 100 پیکسل */
+    /* top: 100px;}    */

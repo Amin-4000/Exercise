@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations(AllItems)</title>
+    <style>
+        .box {
+            width: 20px;
+            height: 20px;
+            font-weight: bold;
+            background-color: rgb(37, 209, 28);
+            margin: 40px;
+            border-radius: 50%;
+            /* Animation Items */
+            animation-name: ChangeColorPlace;
+            animation-duration: 5s;
+            /* تعداد از سرگیری انیمیشن = بی نهایت */
+            animation-iteration-count: infinite;
+            /* مسیر انیمیشن = متناوبی(رفت و برگشتی) */
+            animation-direction: alternate;
+            /* حالات پُر(اجرا شدن)انیمیشن */
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+            /* برای حالت بک واردز باید قبلش مقدار دیلِی داد */
+            animation-fill-mode: backwards;
+            animation-fill-mode: both;
+
+            /* All Items */
+            animation:
+                /*name*/
+                ChangeColorPlace
+                /*animation-duration*/
+                5s
+                /* animation-iteration-count */
+                infinite
+                /* animation-direction */
+                alternate
+                /* animation-fill-mode */
+                forwards
+                /* animation-delay */
+                1s;
+            /* نکته= مقدار پیش فرض زمان ، برای دیوریشن است و اگه دوتا زمان بکار برده شود،اولی برای دیوریشن و دومی برای دیلِی است*/
+        }
+
+        /* متوقف کردن انیمیشن با هاور ماوس */
+        .box:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes ChangeColorPlace {
+            20% {
+                background-color: yellow;
+                transform: translate(50px);
+                width: 50px;
+                height: 50px;
+            }
+
+            40% {
+                background-color: orangered;
+                transform: translate(75px);
+                width: 75px;
+                height: 75px;
+            }
+
+            65% {
+                background-color: red;
+                transform: translate(100px);
+                width: 100px;
+                height: 100px;
+            }
+
+            80% {
+                background-color: brown;
+                transform: translate(150px);
+                width: 150px;
+                height: 150px;
+            }
+
+            100% {
+                background-color: black;
+                transform: translate(200px);
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+
+</html>

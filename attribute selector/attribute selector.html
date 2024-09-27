@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute selector</title>
+    <link rel="stylesheet" href="attribute selector.css">
+</head>
+
+<body>
+    <h1>attribute selectors:</h1>
+    <ol>
+        <!-- "A" -->
+        <li>عناصری که اتریبیوت <span style="font-weight: bold;color: green;">"تارگت"</span> دارند ---> [target] </li>
+        <a class="A" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="A" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="A" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="A" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="A" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="A" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="A" id="underline" href="https://upmusics.com">- upmusics</a>
+        <!-- "B" -->
+        <li>عناصری که <span style="font-weight: bold;color: green;">"تارگتِ بلَنک"</span> دارند ---> [target="_blank"]
+        </li>
+        <a class="B" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="B" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="B" id="underline" href="https://yahoo.com">- yahoo</a>
+        <a class="B" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="B" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="B" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="B" id="underline" href="https://upmusics.com" target="_blank">- upmusics</a>
+        <!-- "C" -->
+        <li>عناصری که اتریبیوت <span style="font-weight: bold;color: green;">"تایتل"</span> دارند ---> [title] </li>
+        <a class="C" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="C" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="C" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="C" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="C" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="C" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="C" id="underline" href="https://upmusics.com">- upmusics</a>
+        <!-- "D" -->
+        <li> عنوان هایی که <span style="font-weight: bold;color: green;">"مای"</span> مُجزا دارند ---> [My] </li>
+        <a class="D" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="D" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="D" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="D" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="D" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="D" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="D" id="underline" href="https://upmusics.com">- upmusics</a>
+        <!-- "E" -->
+        <li> عناصری که با <span style="font-weight: bold;color: green;">"اچ تی تی پی اس"</span> شروع می شوند ---> [https] </li>
+        <a class="E" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="E" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="E" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="E" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="E" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="E" id="underline" href="http://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="E" id="underline" href="https://upmusics.com">- upmusics</a>
+        <!-- "F" -->
+        <li> عناصری که آخرش <span style="font-weight: bold;color: green;">"آی آر"</span> است ---> [ir] </li>
+        <a class="F" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="F" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="F" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="F" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="F" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="F" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="F" id="underline" href="https://upmusics.com">- upmusics</a>
+        <!-- "G" -->
+        <li> عناصری که داخلش <span style="font-weight: bold;color: green;">"کلمه موزیک"</span> وجود دارد ---> [music] </li>
+        <a class="G" id="underline" href="https://google.com" target="_blank">- google</a>
+        <a class="G" id="underline" href="https://google.com" title="my google">- google</a>
+        <a class="G" id="underline" href="https://yahoo.com" target="_blank">- yahoo</a>
+        <a class="G" id="underline" href="https://yahoo.com" title="my google">- yahoo</a>
+        <a class="G" id="underline" href="https://next1code.ir">- next1code</a>
+        <a class="G" id="underline" href="https://next1code.ir" title="my-next1code">- next1code</a>
+        <a class="G" id="underline" href="https://upmusics.com">- upmusics</a>
+    </ol>
+</body>
+
+</html>

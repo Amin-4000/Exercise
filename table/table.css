@@ -1,0 +1,54 @@
+                /* جدول اول */
+.t1 th,td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.t1 th {
+    background-color: aqua;
+
+}
+
+.t1 {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.t1 tr:nth-child(odd) {
+    background-color: #e6dada;
+}
+
+.t1 tr:hover {
+    background-color: yellow;
+}
+                 /* جدول دوم */
+.t2{
+    border-collapse: collapse;
+width: 100%;
+}
+.t2 td,th{
+    border: 2px solid rgb(141, 137, 137);
+}
+.t2 th{
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.t2 td{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.call a{
+    text-decoration: none;
+    border: 1px solid gray;
+    background: yellow;
+    padding: 6px 11px;
+    border-radius: 20px;
+}

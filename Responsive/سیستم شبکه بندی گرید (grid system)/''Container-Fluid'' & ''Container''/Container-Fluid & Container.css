@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+}
+/* attribute-selector روش  */
+[class ^="col-"] {
+    float: right;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+/* Clear Float */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Full Width Container */
+.container-fluid {
+    width: 100%;
+    background-color: lightgray;
+}
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: rgb(15, 143, 185);
+}
+
+.violet {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}

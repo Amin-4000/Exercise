@@ -1,0 +1,5 @@
+    /* First Letter(اولین حرف) */
+p::first-letter{
+    color: green;
+    font-size: xx-large;
+}

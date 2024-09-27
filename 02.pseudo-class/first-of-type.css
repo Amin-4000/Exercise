@@ -1,0 +1,9 @@
+ p:first-of-type {
+     color: green;
+     font-weight: bold;
+ }
+
+ b:first-of-type {
+     color: blue;
+     font-weight: bold;
+ }

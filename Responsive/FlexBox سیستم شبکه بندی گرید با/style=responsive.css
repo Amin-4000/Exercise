@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+.item {
+    padding: 50px;
+    flex-grow: 1;
+
+}
+
+.item:nth-child(odd) {
+    background-color: gray;
+}
+
+.item:nth-child(even) {
+    background-color: lightgrey;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition-Pooperty&Transition-Duration</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 200px auto;
+            /* Transition Items */
+            transition-property: width , background-color , border-radius ;
+            transition-duration: 4s , 6s , 8s;
+        }
+        /* On Mouse Moveing */
+        .box:hover{
+            background-color: red;
+            width: 300px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

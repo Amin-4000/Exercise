@@ -1,0 +1,57 @@
+body{
+    @font-face {
+        font-family: "yekan";
+        src: url(../practice/متفرقه/فونت/yekan/Yekan.ttf) format("truetype");
+    }
+}
+li::marker{
+    color: red;
+font-weight: bold;
+font-size: 25px;
+}
+li{
+    font-family: "yekan";
+    font-size: 18px;
+    list-style-type: upper-latin;
+}
+#underline{
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    margin: 4px;
+}
+
+/* "A" */
+.A[target] {
+    background-color: aqua;
+}
+
+/* "B" */
+.B[target="_blank"]{
+    background-color: aqua;
+}
+
+/* "C" */
+.C[title]{
+    background-color: aqua;
+}
+
+/* "D" */
+.D[title ~= "my" ]{
+    background-color: aqua;
+}
+
+/* "E" */
+.E[href ^= "https" ]{
+    background-color: aqua;
+}
+
+/* "F" */
+.F[href $= "ir" ]{
+    background-color: aqua;
+}
+
+/* "G" */
+.G[href *= "music" ]{
+    background-color: aqua;
+}

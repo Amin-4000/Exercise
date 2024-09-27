@@ -1,0 +1,26 @@
+/* برای پدر(کانتینر) و فرزندان(جعبه ها) جهت جاگیری جعبه ها استفاده می شود position:relative & absolute در این روش ، از */
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: darkgray;
+    position: relative;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    /* :چسباندن جعبه ها از طریق تاپ 100 پیکسل */
+    top: 100px;   
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 40px;
+}
+
+[class ^="col-"]{
+    float: right;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.orange{
+    background-color: orange;
+}
+
+.blue{
+    background-color: rgb(15, 143, 185);
+}
+
+.violet{
+    background-color: violet;
+}
+
+.green{
+    background-color: green;
+}

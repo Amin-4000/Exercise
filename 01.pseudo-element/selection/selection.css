@@ -1,0 +1,6 @@
+    /* selection(انتخابگر) */
+p::selection{
+    background-color: black;
+    color: yellow;
+
+}

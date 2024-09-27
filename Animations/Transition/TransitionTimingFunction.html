@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransitionTimingFunction</title>
+    <style>
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5 {
+            height: 70px;
+            width:  70px;
+            font-weight: bold;
+            background-color: rgb(164, 28, 209);
+            margin: 40px;
+            transition-property: transform;
+            transition-duration: 8s;
+        }
+
+        /* TransitionTimingFunction Items */
+        .box1 {
+            transition-timing-function:ease ;
+        }
+        .box2 {
+            transition-timing-function:ease-in ;
+        }
+        .box3 {
+            transition-timing-function:ease-out ;
+        }
+        .box4 {
+            transition-timing-function:ease-in-out ;
+        }
+        .box5 {
+            transition-timing-function:linear ;
+        }
+
+        /* On Mouse Moveing */
+        .container:hover div{
+           transform:translateX(450px) ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">ease</div>
+        <div class="box2">ease-in</div>
+        <div class="box3">ease-out</div>
+        <div class="box4">ease-in-out</div>
+        <div class="box4">linear</div>
+    </div>
+</body>
+
+</html>

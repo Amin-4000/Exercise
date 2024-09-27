@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <h1>Demo of the :in-range selector</h1>
+
+    <input type="number" min="5" max="10" value="7">
+
+    <p>Try typing a number <b>in-range</b> or <b>out of range</b> (<b>between</b> or <b>out of</b> numbers <b>"5"</b> and <b>"10"</b>),<br><br> to see the styling disappear.</p>
+
+</body>
+
+<style>
+    input:in-range {
+        border: 2px solid green;
+    }
+
+    input:out-of-range {
+        border: 2px solid red;
+    }
+</style>
+
+</html>

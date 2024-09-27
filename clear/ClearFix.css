@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+
+}
+.header{
+background-color: rgb(180, 172, 172);
+height: 50px;
+font-size: 22px;
+padding-top: 15px;
+}
+.sidebar{
+    background-color: violet;
+    height: 100px;
+    width: 25%;
+    float: right;
+    font-size: 22px;
+    padding-top: 55px;
+}
+.article{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 75%;
+    float: left;
+    font-size: 22px;
+    padding-top: 55px;
+}
+.footer{
+    background-color: rgb(180, 172, 172);
+    height: 50px;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+    /* ClearFix با */
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+    /* (در مرورگرهای خیلی مدرن و ورژن بالا)FlowRoot با */
+/* .main{
+    display: flow-root;
+} */

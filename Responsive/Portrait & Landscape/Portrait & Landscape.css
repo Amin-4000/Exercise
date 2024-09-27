@@ -1,0 +1,22 @@
+body {
+    /* background-image: url(Screenshot\ \(40\).png); */
+    width: 500px;
+    mix-blend-mode: lighten;
+    opacity: .4;
+    flex-shrink: 0;
+}
+
+
+/* حالتی که مقدار ارتفاع از عرض بیشتر است */
+@media screen and (orientation : portrait) {
+    body {
+        background-color: red;
+    }
+}
+
+/* حالتی که مقدار عرض از ارتفاع بیشتر است */
+@media screen and (orientation : landscape) {
+    body {
+        background-color: blue;
+    }
+}

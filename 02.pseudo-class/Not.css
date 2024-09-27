@@ -1,0 +1,9 @@
+ :not(b) {
+     color: orange;
+     font-weight: bold;
+ }
+
+ :not(p) {
+     color: purple;
+     font-weight: bold;
+ }

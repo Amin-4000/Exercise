@@ -1,0 +1,35 @@
+div {
+    text-align: justify;
+    direction: rtl;
+}
+
+@media (max-width:480px) {
+
+    div {
+        background-color: aqua;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
+
+@media (480px <=width <=768px) {
+    div {
+        background-color: blueviolet;
+    }
+
+    p {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:768px) {
+    div {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 50px;
+    }
+}

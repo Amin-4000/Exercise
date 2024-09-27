@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    padding: 50px;
+    flex-grow: 1;
+}
+.item:nth-child(odd){
+    background: gray;
+}
+.item:nth-child(even){
+    background: lightgray;
+}
+@media screen and (min-width : 600px){
+    .container{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <h1>Demo of the :valid selector</h1>
+
+    <input type="email" value="support@example.com">
+
+    <p>Try typing an illegal e-mail address, to see the styling disappear.</p>
+
+</body>
+
+<style>
+    input:valid {
+        background-color: rgb(97, 197, 97);
+    }
+
+    input:invalid {
+        background-color: red;
+    }
+</style>
+
+</html>

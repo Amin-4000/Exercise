@@ -1,0 +1,22 @@
+.grandfa{
+    width: 450px;
+    height: 550px;
+    background-color: rgb(86, 169, 169);
+    /* position:relative ; */
+    margin: auto;
+}
+.father{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(7, 121, 121);
+    /* position: relative; */
+    margin: auto;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(11, 82, 82);
+    position: absolute;
+    right:20px ;
+    top:10px ;
+}
