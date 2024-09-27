@@ -1,0 +1,30 @@
+div {
+    width: 900px;
+    height: 500px;
+    background-image: url(abasmanesh2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    mix-blend-mode: overlay;
+    opacity: .8;
+    border-radius: 10px;
+}
+h1{
+    font-family: sans-serif;
+    color: #faf6fa;
+    font-size: 26px;
+    text-shadow: 3px 0px 2px black;
+    opacity: .8;
+    position: absolute;
+    bottom: 35px;
+    left: 14px;
+}

@@ -1,0 +1,11 @@
+.box1{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    box-shadow: 0 0 15px;
+                      /* تکرار رنگ دایره ای*/
+    background: repeating-radial-gradient(circle,red 9%,white 30%,green 40%);
+}

@@ -1,0 +1,18 @@
+.container{
+    width: 450px;
+    height: 430px;
+    border: 2px dashed green;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 4px;
+}

@@ -1,0 +1,59 @@
+li::marker {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li {
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#p1 {
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+#p2 {
+    width: 110px;
+    height: 200px;
+    text-align: right;
+    background-color: aquamarine;
+    overflow: auto;
+}
+
+#p3 {
+    width: 300px;
+    height: 250px;
+    text-align: justify;
+    background-color: aquamarine;
+    overflow-x: visible;
+}
+
+#p4 {
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    background-color: aquamarine;
+    overflow-y: scroll;
+}
+
+#p5 {
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+#p6 {
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    background-color: aquamarine;
+    overflow: visible;
+}

@@ -1,0 +1,16 @@
+.container{
+    border: 2px dashed green;
+    padding: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}

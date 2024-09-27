@@ -1,0 +1,30 @@
+.box1{
+    width: 450px;
+    height: 250px;
+                           /* شعاع دایره ای + Step Color */
+      background: radial-gradient(circle,red,yellow 20%,yellow 40%,green);
+}
+.box2{
+    width: 450px;
+    height: 200px;
+                      /* Step by Step Oolor + شعاع بیضی */
+    background: radial-gradient(ellipse,red,red 30%,yellow 30%,yellow 60%,green 60%,green);
+}
+
+.Japon-Flag{
+    width: 450px;
+    height: 200px;
+    border: 2px solid gray;
+    box-shadow: 0 0 75px;
+                      /* پرچم ژاپن */
+    background: radial-gradient(circle,red,red 30%,white 30%,white);
+}
+
+.Iran-Flag{
+    width: 450px;
+    height: 200px;
+    border: 2px solid gray;
+    box-shadow: 0 0 75px;
+                      /* پرچم ایران */
+    background: repeating-linear-gradient(to top,red,red 35%,white 35%,white 65%,green 65%,green);
+}

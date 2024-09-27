@@ -1,0 +1,21 @@
+.box1{
+    width: 450px;
+    height: 200px;
+                                          /* Color Step */
+      background: linear-gradient(to top,red,yellow 50%,yellow 70%,green);
+}
+.box2{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to right,red,yellow,green);
+}
+.box3{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to bottom,red,yellow,green);
+}
+.box4{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to left,red,yellow,green);
+}

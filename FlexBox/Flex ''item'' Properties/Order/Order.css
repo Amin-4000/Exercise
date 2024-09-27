@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 150px;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container .item1 {
+    order: 3;
+}
+
+.container .item2 {
+    order: 1;
+}
+
+.container .item3 {
+    order: 4;
+}
+
+.container .item4 {
+    order: 2;
+}

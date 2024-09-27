@@ -1,0 +1,10 @@
+.box{
+    width: 670px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    margin-top: -25px;
+    border: 2px dotted gray;
+    background-image: url(Amin4000.jpg);
+    clip-path: ellipse(250px 340px at 320px 360px);
+}

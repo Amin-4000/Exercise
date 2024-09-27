@@ -1,0 +1,29 @@
+li::marker {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li .title {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: overline;
+}
+
+    /* (...فرزند،نوه و)انتخابگر نسل */
+#t1 p{
+    color: green;
+}
+      /* انتخابگرِ فقط فرزند */  
+#t2 > p{
+    color: brown;
+}
+      /* (بعد از دیو)انتخابگر خواهر و برادرهای مجاور */
+#t3 div + p{
+    color: yellow;
+}
+
+      /* (بعد از دیو)انتخابگر خواهر و برادرهای عمومی */
+#t4 div ~ p{
+    color: rgb(178, 22, 147);
+}

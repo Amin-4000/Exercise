@@ -1,0 +1,30 @@
+.container {
+    width: 450px;
+    height: 530px;
+    border: 2px dashed green;
+    padding: 4px;
+    display: flex;
+
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 4px;
+}

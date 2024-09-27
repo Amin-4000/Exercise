@@ -1,0 +1,7 @@
+.box1{
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 0 15px;
+                      /* تکرار رنگ ها*/
+    background: repeating-linear-gradient(to top,red 20%,white 30%,green 40%);
+}
