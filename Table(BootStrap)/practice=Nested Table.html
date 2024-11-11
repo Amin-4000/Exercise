@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="Fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+    <link rel="stylesheet" href="Files/Styles/bootstrap.RTL.min[My styles].css">
+
+    <style>
+        body {
+            background-color: #1717ac;
+            margin: 50px 45px;
+        }
+
+        .table th {
+            color: red;
+        }
+
+        .table td {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body class="Fsans">
+
+    <table class="table table-dark table-bordered border-success text-center">
+        <thead>
+            <th>ردیف</th>
+            <th>نام</th>
+            <th>نام خانوادگی</th>
+            <th>شغل</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>محمد</td>
+                <td>همتی</td>
+                <td>کؤچ بهره وری</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table class="table table-bordered border-info table-dark mb-0">
+                        <thead>
+                            <th scope="col" class="p2 px-8">2</th>
+                            <th scope="col" class=" px-5">امین</th>
+                            <th scope="col" class=" px-9">اسدپور</th>
+                            <th scope="col" class=" px-4">دانشجوی برنامه نویسی</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>سن</th>
+                                <td colspan="3">36</td>
+                            </tr>
+                            <tr>
+                                <th>مدرک تحصیلی</th>
+                                <td colspan="3">کارشناسی حقوق</td>
+                            </tr>
+                            <tr>
+                                <th>دوره های گذرانده</th>
+                                <td colspan="3">الفبای برنامه نویسی/آشنایی با الگوریتم و فلوچارت/Html & Css/Inspect
+                                    Element/Responsive/Flex Box/animation/Bootstrap</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>علی</td>
+                <td>بهارلو</td>
+                <td>مدرس</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="Files/Scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
